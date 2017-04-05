@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.frame</groupId>
 	<artifactId>frameMybatis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<description>DUBBO2.5.3,spring4.3.2，hibernate4.3.4，Mybatis</description>
+	<description>DUBBO2.5.3,spring4.3.2，hibernate4.3.4，Mybatis3.4.2</description>
 
 	<modules>
-		
+    <module>frameMybatis-service</module>
+    <module>frameMybatis-common</module>
+    <module>frameMybatis-service-api</module>
+    <module>frameMybatis-persistence</module>
 	</modules>
 
 	<repositories>
@@ -54,7 +56,7 @@
 			<version>1.0</version>
 		</dependency>
 
-		<!-- 链接池 -->
+		<!-- 链接�?-->
 		<dependency>
 			<groupId>c3p0</groupId>
 			<artifactId>c3p0</artifactId>
@@ -67,7 +69,7 @@
 			<version>2.1_3</version>
 		</dependency>
 
-		<!-- commons jar包 -->
+		<!-- commons jar�?-->
 		<dependency>
 			<groupId>commons-beanutils</groupId>
 			<artifactId>commons-beanutils</artifactId>
@@ -453,7 +455,7 @@
 			<version>3.8-beta3-20110606</version>
 		</dependency>
 
-		<!-- servlet jar包 -->
+		<!-- servlet jar�?-->
 		<dependency>
 			<groupId>servlet-api</groupId>
 			<artifactId>servlet-api</artifactId>
