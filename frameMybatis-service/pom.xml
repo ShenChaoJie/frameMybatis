@@ -13,16 +13,16 @@
 	<name>frameMybatis-service</name>
 
 	<dependencies>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.frame.common</groupId>
 			<artifactId>frameMybatis-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
+		</dependency> -->
+		<!-- <dependency>
 			<groupId>org.frame.persistence</groupId>
 			<artifactId>frameMybatis-persistence</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.frame.service.api</groupId>
 			<artifactId>frameMybatis-service-api</artifactId>
@@ -34,6 +34,10 @@
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+			<resource>
+				<directory>src/main/java</directory>
 				<filtering>true</filtering>
 			</resource>
 		</resources>
