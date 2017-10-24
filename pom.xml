@@ -14,7 +14,7 @@
     <module>frameMybatis-persistence</module>
 	</modules>
 
-	<repositories>
+	<!-- <repositories>
 		<repository>
 			<id>enersgysh</id>
 			<name>enersgysh Maven</name>
@@ -31,7 +31,7 @@
 			<name>enersgysh Releases</name>
 			<url>http://192.168.1.251:8081/nexus/content/repositories/releases</url>
 		</repository>
-	</distributionManagement>
+	</distributionManagement> -->
 
 	<dependencies>
 		<dependency>

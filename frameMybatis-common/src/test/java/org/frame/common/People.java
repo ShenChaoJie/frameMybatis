@@ -1,5 +1,6 @@
 package org.frame.common;
 
+
 class People {
 	
 	String name;
