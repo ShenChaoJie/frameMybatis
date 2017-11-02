@@ -1,4 +1,4 @@
-package org.frame.common.designPatterns.decorator;
+package org.frame.common.designPatterns.proxy;
 
 public interface Sourceable {
 	
